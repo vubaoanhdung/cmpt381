@@ -1,0 +1,16 @@
+.table-view .column-header-background .label {
+    -fx-font-size: 18px;
+}
+
+.table-view .table-column{
+    -fx-alignment: center;
+}
+
+.table-view .table-cell {
+    -fx-font-size: 16px;
+}
+
+.table-row-cell:selected .table-cell {
+    -fx-background-color: #f36d6d;
+}
+

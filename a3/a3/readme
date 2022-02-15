@@ -1,0 +1,31 @@
+Damon(Bao) Vu
+11261393
+bav965
+
+What I have done
+
+- Part 1: 	Everything
+
+- Part 2: 	Everything
+
+- Part 3: 	Everything(z-order, selection box around objects, deletion, moving)
+
+	EXCEPT resizing. 
+	However, I have set up all the necessary steps for it(including 
+	states and handle cases). The missing part is a small portion of the
+	implementation (specifically line 46 and line 123 in 
+	DrawingController). It's almost done but due to time constraint I 
+	could not get it done on time.
+	
+	Also note that there is a small bug when user choose the line shape 
+	in the shape toolbar and left click (press and release without
+	dragging). A small point would appear on the screen without the 
+	small yellow circle handle at the corner. This bug causes by line 
+	83-90 in the DrawingController but I don't have enough time to fix it
+	
+- Part 4:	Mostly left undone. Moving around the world view was set up at line
+	31 in DrawingController (without the implementation).
+	
+
+NOTE: Choose a shape from the shape toolbar and a color from the color toolbar
+before drawing
